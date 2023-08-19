@@ -1,9 +1,9 @@
-// Materia: Programación I, Paralelo 4
+// Materia: Programacion I, Paralelo 4
 // Autor: Leonardo Delgado Medrano
-// Fecha creación: 17/08/2023
-// Fecha modificación: 17/08/2023
-// Número de ejericio: 7
-// Problema planteado: Número amigo
+// Fecha creacion: 17/08/2023
+// Fecha modificacion: 17/08/2023
+// Numero de ejericio: 7
+// Problema planteado: Numero amigo
 #include<iostream>
 using namespace std;
 //Funcion que suma los divisores de los numeros
