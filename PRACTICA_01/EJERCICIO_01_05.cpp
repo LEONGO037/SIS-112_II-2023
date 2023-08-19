@@ -1,4 +1,4 @@
-// Materia: Programacion I, Paralelo 5
+// Materia: Programacion I, Paralelo 4
 // Autor: Leonardo Delgado Medrano
 // Fecha creacion: 17/08/2023
 // Fecha modificacion: 17/08/2023
