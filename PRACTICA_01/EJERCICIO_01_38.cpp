@@ -12,6 +12,7 @@ int main()
 {
     float paisA=25.0, paisB=19.9;
     int anio=2009;
+    //Se inclrementa el crecimiento de la poblacion y se suma cada anio
     while(paisA>paisB)
     {
         paisA+=paisA/50.0;
