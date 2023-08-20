@@ -1,10 +1,10 @@
-// Materia: Programación I, Paralelo 1
+// Materia: Programacion I, Paralelo 4
 // Autor: Leonardo Delgado Medrano
-// Fecha creación: 17/08/2023
-// Fecha modificación: 17/08/2023
-// Número de ejericio: 9
+// Fecha creacion: 17/08/2023
+// Fecha modificacion: 17/08/2023
+// Numero de ejericio: 9
 // Problema planteado: Realice un programa que ingrese los meses de 1 al 12 y el programa despliegue el mes
-//en literal. Si se ingresa un valor distinto a 1 al 12 el programa debe dar un mensaje de mes inválido.
+//en literal. Si se ingresa un valor distinto a 1 al 12 el programa debe dar un mensaje de mes invalido.
 #include<iostream>
 
 using namespace std;
