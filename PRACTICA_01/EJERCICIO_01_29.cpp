@@ -11,6 +11,7 @@ int main()
     int cantidad;
     cout<<"Ingrese cuantas llantas esta comprando"<<endl;
     cin>>cantidad;
+    //Vemos a que promocion corresponde segun la cantidad
     if (0<cantidad && cantidad<5)
     {
         cout<<"El precio de cada llanta es de 300 Bs"<<endl;
