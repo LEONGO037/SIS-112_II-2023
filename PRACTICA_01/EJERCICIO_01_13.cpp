@@ -2,7 +2,7 @@
 // Autor: Leonardo Delgado Medrano
 // Fecha creacion: 19/08/2023
 // Fecha modificacion: 19/08/2023
-// Numero de ejericio: 12
+// Numero de ejericio: 13
 // Problema planteado: Indique la cantidad de dígitos que tiene un numero entero.
 #include<iostream>
 using namespace std;
