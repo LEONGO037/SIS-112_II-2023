@@ -17,6 +17,7 @@ int main()
         float pago;
         cout<<"Ingrese cuanto debe pagar el cliente"<<endl;
         cin>>pago;
+        //Aplicamos el descuento correspondiente
         if (0<pago && pago<100)
         {
             descuento1++;
