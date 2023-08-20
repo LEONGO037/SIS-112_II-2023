@@ -14,6 +14,7 @@ int main ()
     int mes;
     cout<<"Ingrese el numero de mes"<<endl;
     cin>>mes;
+    //Se ve que numero de mes es
     switch(mes)
     {
     case 1:
