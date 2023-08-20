@@ -6,6 +6,7 @@
 // Problema planteado: Mostrar los primero 100 numero primos.
 #include<iostream>
 using namespace std;
+//Funcion que determina si el numero es primo o no
 bool EsPrimo(int num)
 {
     bool Primo = true;
