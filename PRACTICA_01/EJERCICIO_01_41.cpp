@@ -25,6 +25,7 @@ int main()
             horasExtra=horas-40;
             horas=40;
         }
+        //Calcula el pago de cad obrero
         float pagototal=(horas*pagoHora)+(horasExtra*pagoHora*2.0);
         float pagoneto=(horas*pagoHora)-(horas*pagoHora/20.0)+(horasExtra*pagoHora*2.0);
         cout<<"El pago total del obrero es de "<<pagototal<<endl;
