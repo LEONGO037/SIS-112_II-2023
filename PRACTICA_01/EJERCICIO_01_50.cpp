@@ -2,7 +2,7 @@
 // Autor: Leonardo Delgado Medrano
 // Fecha creacion: 21/08/2023
 // Fecha modificacion: 21/08/2023
-// Numero de ejericio: 49
+// Numero de ejericio: 50
 // Problema planteado: Escribir un programa que muestre en pantalla, con los encabezados correspondientes,
 // el capital (Cn) y los intereses ganados por un capital C0 depositado a un interes
 // compuesto I durante N anos.
