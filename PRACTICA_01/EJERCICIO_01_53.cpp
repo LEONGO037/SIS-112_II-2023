@@ -13,6 +13,7 @@ int main()
     float angulo;
     cout<<"Ingrese el angulo"<<endl;
     cin>>angulo;
+    //Halla las funciones trigonometricas
     cout<<"El seno es "<<sin((angulo*Pi)/180.0)<<endl;
     cout<<"El coseno es "<<cos((angulo*Pi)/180.0)<<endl;
     cout<<"El tangente es "<<tan((angulo*Pi)/180.0)<<endl;
