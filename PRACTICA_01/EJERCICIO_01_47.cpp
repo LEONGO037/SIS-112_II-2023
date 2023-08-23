@@ -9,17 +9,18 @@ using namespace std;
 int main()
 {
     int empleado;
-    float sueldo, bono;
+    float sueldo=2362.0, total=0.0;
     cout<<"Ingrese la cantidad de empleados"<<endl;
     cin>>empleado;
     for (int i=0;i<empleado;i++)
     {
         int anios;
-        float venta, ventatotal=0.0;
-        cout<<"Ingrese el sueldo"<<endl;
-        cin>>sueldo;
+        float venta;
         cout<<"Ingrese cuantos anios lleva trabajando"<<endl;
         cin>>anios;
+        cout<<"Ingrese cuantos productos vendio"<<endl;
+        cin>>venta;
+        venta*=1000.0;
         if(2<=anios && anios<=4)
             sueldo+=(sueldo*0.05);
         if(5<=anios && anios<=7)
@@ -35,14 +36,11 @@ int main()
         if(25<=anios)
             sueldo+=(sueldo*0.5);
         //Se halla la suma de las 10 ventas
-        for(int j=1;j<=10;j++)
-        {
-            cout<<"Ingrese el precio de la venta "<<j<<endl;
-            cin>>venta;
-            ventatotal+=venta;
-        }
-        cout<<"Su comision por ventas es de "<<ventatotal*0.1<<endl;
-        cout<<"Su sueldo total contando la comision y su bono por antiguedad es de "<<sueldo+(ventatotal*0.1)<<endl;
+        cout<<"Su sueldo es de "<<sueldo<<endl;
+        cout<<"Su comision por ventas es de "<<venta*0.1<<endl;
+        cout<<"Su sueldo total contando la comision y su bono por antiguedad es de "<<sueldo+(venta*0.1)<<endl;
+        total+=(sueldo+(venta*0.1));
     }
+    cout<<"El total a pagar es "<<total;
     return 0;
 }
