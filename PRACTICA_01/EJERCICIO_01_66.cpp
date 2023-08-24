@@ -44,4 +44,5 @@ int main()
     {
         cout<<dinero<<" moneda(s) de 1 Bs"<<endl;
     }
+    return 0;
 }
