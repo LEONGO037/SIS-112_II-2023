@@ -19,6 +19,7 @@ int main()
     for(int i=0;i<12;i++)
     {
         cin>>valores[i];
+        //Se ve el mes de la venta maxima
         if(valores[i]>maximo)
         {
             maximo=valores[i];
